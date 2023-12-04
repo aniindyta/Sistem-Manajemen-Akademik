@@ -1,66 +1,51 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
+<h1 align="center">
+  Management System Academic
+</h1>
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+  This repository contains the source code for an academic data management system designed for university use. The system includes features for managing student and faculty data, with different functionalities based on user roles. 
 </p>
 
-## About Laravel
+## Key Features
+- [x] Dashboard: Provides an overview of relevant statistics, such as the number of students and faculty members.
+- [x] Admin Interface: Allows administrators to manage data efficiently, including adding, editing, and deleting student and faculty records.
+- [x] User Roles: Supports different roles such as Admin and Dosen (lecturer), each with specific permissions and views.
+- [x] Student Management: Enables the addition and modification of student details, including NIM, name, address, and class.
+- [x] Faculty Management: Facilitates the administration of faculty details, such as NIP, name, address, and photo upload.
+- [x] Authentication: Implements user authentication to ensure secure access to the system.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Technologies Used:
+- [x] Frontend: Developed using HTML, CSS, and the Laravel Blade template engine.
+- [x] Backend: Built with the Laravel PHP framework, providing a robust and scalable backend infrastructure.
+- [x] Database: Utilizes a relational database system (e.g., MySQL) for storing and managing academic data.
+- [x] Authentication: Implements user authentication using Laravel's built-in authentication system.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## How to Contribute:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make changes and ensure the code follows best practices.
+4. Test thoroughly.
+5. Submit a pull request, explaining the changes made and why they are necessary.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Showcase
+**Mahasiswa**
+|Dashbord|Data Dosen|
+|--|--|
+|![loginSebagaiMahasiswa](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/1addab3a-5a6e-4b08-bfc2-4687cba7a877)|![loginSebagaiMahasiswa(2)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/2b17d3ef-a4a3-4e13-b7e0-9948c83f2dfa)|
 
-## Learning Laravel
+**Dosen**
+|Dashbord|Data Mahasiswa|
+|--|--|
+|![loginSebagaiDosen](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/799d452c-663d-48fb-b369-5315956ef59e)|![loginSebagaiDosen(2)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/b80775a9-3bf3-443a-bd1c-ba9c6478dea4)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+|Edit Mahasiswa|Delete Mahasiswa|
+|--|--|
+|![loginSebagaiDosen(3)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/99bf2dc3-37ef-471b-a5e6-c305c0b07ea9)|![loginSebagaiDosen(4)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/db67b69e-6521-4312-b6d8-9caba059a91e)|
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+**Admin**
+|Dashbord|Data Mahasiswa|Data Dosen|
+|--|--|--|
+|![loginSebagaiAdmin](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/bdb49327-dfa5-4aac-a000-4e39d16b37f2)|![loginSebagaiAdmin(2)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/297ae654-9331-482d-8278-9984de06b429)|![loginSebagaiAdmin(4)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/d5d8c572-d289-4a30-935e-35424ee0e62c)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+|Tambah Dosen|Tambah Mahasiswa|
+|--|--|
+|![loginSebagaiAdmin(3)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/3b87142b-5ee8-4d46-9259-542d351b6427)|![loginSebagaiAdmin(5)](https://github.com/aniindyta/Sistem-Manajemen-Akademik/assets/87638112/fed1adb8-14e7-4348-a4fe-4049f46edde4)
