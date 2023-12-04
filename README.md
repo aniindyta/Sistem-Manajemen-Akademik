@@ -16,7 +16,7 @@
 ## Technologies Used:
 - [x] Frontend: Developed using HTML, CSS, and the Laravel Blade template engine.
 - [x] Backend: Built with the Laravel PHP framework, providing a robust and scalable backend infrastructure.
-- [x] Database: Utilizes a relational database system (e.g., MySQL) for storing and managing academic data.
+- [x] Database: Utilizes a relational database system for storing and managing academic data.
 - [x] Authentication: Implements user authentication using Laravel's built-in authentication system.
 
 ## How to Contribute:
